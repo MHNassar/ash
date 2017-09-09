@@ -19,3 +19,4 @@ Route::get('/', 'SiteController@getHome');
 Route::get('/about', 'SiteController@getAbout');
 Route::get('/services', 'SiteController@getServices');
 Route::get('/work', 'SiteController@getWorks');
+Route::get('/contact', 'SiteController@getContact');

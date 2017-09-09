@@ -103,7 +103,7 @@
                     <li><a href="{{url('/about')}}" class="transition">ABOUT US</a></li>
                     <li><a href="{{url('/services')}}" class="transition">OUR SERVICES</a></li>
                     <li><a href="{{url('/work')}}">OUR WORKS</a></li>
-                    <li><a href="contact.php" class="transition">CONTACT US</a></li>
+                    <li><a href="{{url('/contact')}}" class="transition">CONTACT US</a></li>
                     <li><a href="#" class="hamburger-menu"><i class="ion-navicon"></i></a></li>
                 </ul>
             </div>
@@ -229,6 +229,8 @@
     <script src="{{url('public/js/wow.js')}}"></script>
     <script src="{{url('public/js/owl.carousel.js')}}"></script>
     <script src="{{url('public/js/jquery.stellar.js')}}"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDoO82xfGgpJa1eO1y5o0nMTQK8YQ2sCa4&sensor=false"></script>
+    <script src="{{url('public/js/google-maps.js')}}"></script>
     <script src="{{url('public/js/jquery.fancybox.js%3Fv=2.1.5')}}" type="text/javascript"></script>
     <script src="{{url('public/js/jquery.themepunch.tools.min.js')}}" type='text/javascript'></script>
     <script src="{{url('public/js/jquery.themepunch.revolution.min.js')}}" type='text/javascript'></script>

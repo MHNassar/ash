@@ -47,4 +47,9 @@ class SiteController extends Controller
         $work = Work::all();
         return view('site.works')->with('work', $work);
     }
+
+    public function getContact()
+    {
+        return view('site.contact');
+    }
 }
