@@ -30,26 +30,26 @@
             </div>
         </div>
     </section>
-    <section class="team-members">
-        <div class="container wow fadeInUp">
-            <div class="row">
-                @foreach($team as $item)
-                    <div class="col-md-4 col-sm-4">
-                        <figure><img src="{{url('public/uploads/'.$item->image)}}" alt="Image">
-                            <figcaption>
-                                <h3>{{$item->name}}</h3>
-                                <h6>{{$item->position}}</h6>
-                            </figcaption>
-                        </figure>
-                    </div>
-            @endforeach
+    {{--<section class="team-members">--}}
+    {{--<div class="container wow fadeInUp">--}}
+    {{--<div class="row">--}}
+    {{--@foreach($team as $item)--}}
+    {{--<div class="col-md-4 col-sm-4">--}}
+    {{--<figure><img src="{{url('public/uploads/'.$item->image)}}" alt="Image">--}}
+    {{--<figcaption>--}}
+    {{--<h3>{{$item->name}}</h3>--}}
+    {{--<h6>{{$item->position}}</h6>--}}
+    {{--</figcaption>--}}
+    {{--</figure>--}}
+    {{--</div>--}}
+    {{--@endforeach--}}
 
-            <!-- end col-4 -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </section>
+    {{--<!-- end col-4 -->--}}
+    {{--</div>--}}
+    {{--<!-- end row -->--}}
+    {{--</div>--}}
+    {{--<!-- end container -->--}}
+    {{--</section>--}}
     <!-- end team-members -->
     <!-- end fun-facts -->
 
