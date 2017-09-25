@@ -125,6 +125,7 @@
         </ul>
     </section>
     <!-- end latest works -->
+
     <section class="logos wow fadeInUp">
         <div class="container">
             <div class="row">
