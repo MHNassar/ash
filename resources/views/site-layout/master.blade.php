@@ -55,7 +55,8 @@
 <body>
 <div class="loading yellow-bg">
     <div class="table">
-        <div class="inner"><img src="{{url('public/images/logo-light.png')}}" alt="Image">
+        <div class="inner">
+            {{--<img src="{{url('public/images/logo-light.png')}}" alt="Image">--}}
             <div class="clearfix"></div>
             <div class="spinner"></div>
         </div>
