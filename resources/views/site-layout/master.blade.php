@@ -232,7 +232,7 @@
     <script src="{{url('public/js/jquery.stellar.js')}}"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDoO82xfGgpJa1eO1y5o0nMTQK8YQ2sCa4&sensor=false"></script>
     <script src="{{url('public/js/google-maps.js')}}"></script>
-    <script src="{{url('public/js/jquery.fancybox.js%3Fv=2.1.5')}}" type="text/javascript"></script>
+    {{--<script src="{{url('public/js/jquery.fancybox.js%3Fv=2.1.5')}}" type="text/javascript"></script>--}}
     <script src="{{url('public/js/jquery.themepunch.tools.min.js')}}" type='text/javascript'></script>
     <script src="{{url('public/js/jquery.themepunch.revolution.min.js')}}" type='text/javascript'></script>
     <script src="{{url('public/js/settings.js')}}" type='text/javascript'></script>
