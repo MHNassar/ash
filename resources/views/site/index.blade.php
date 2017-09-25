@@ -4,7 +4,7 @@
         <div id="rev_slider_35_1" class="rev_slider fullwidthabanner">
             <ul>
                 <li data-transition="scaledownfromtop" data-masterspeed="700"><img
-                            src="{{url('public/images/hero1.jpg')}}" alt="Image">
+                            src="{{url('public/images/slider1.jpg')}}" alt="Image">
                     <div class="tp-caption lfb ltt tp-resizeme start"
                          data-x="center"
                          data-hoffset="0"
@@ -20,16 +20,16 @@
                          data-endspeed="500"
                          data-endeasing="Power4.easeIn">
                         <div class="slide-content">
-                            <h1>ASH</h1>
-                            <h5>Interactive digital experiences are continually becoming more<br>
-                                amazing and more complex to produce. Our team is specially designed<br>
-                                to create successful.</h5>
+                            {{--<h1>ASH</h1>--}}
+                            {{--<h5>Interactive digital experiences are continually becoming more<br>--}}
+                                {{--amazing and more complex to produce. Our team is specially designed<br>--}}
+                                {{--to create successful.</h5>--}}
                             <div class="clearfix"></div>
                         </div>
                 </li>
                 <!-- end banner 1 -->
-                <li data-transition="scaledownfromtop" data-masterspeed="700"><img
-                            src="{{url('public/images/hero3.jp')}}g" alt="Image">
+                {{--<li data-transition="scaledownfromtop" data-masterspeed="700"><img--}}
+                            {{--src="{{url('public/images/slider2.jp')}}g" alt="Image">--}}
                 </li>
                 <!-- end banner 2 -->
             </ul>

@@ -122,7 +122,7 @@
                     <h2>CONTACT</h2>
                 </div>
                 <!-- end col-12 -->
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <figure><img src="{{url('public/images/icon5.png')}}" alt="Image"></figure>
                     <dl>
                         <dt>LOCATION</dt>
@@ -130,7 +130,7 @@
                     </dl>
                 </div>
                 <!-- end col-3 -->
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <figure><img src="{{url('public/images/icon6.png')}}" alt="Image"></figure>
                     <dl>
                         <dt>PHONE</dt>
@@ -139,7 +139,7 @@
                     </dl>
                 </div>
                 <!-- end col-3 -->
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <figure><img src="{{url('public/images/icon7.png')}}" alt="Image"></figure>
                     <dl>
                         <dt>E-MAIL</dt>
@@ -148,14 +148,7 @@
                     </dl>
                 </div>
                 <!-- end col-3 -->
-                <div class="col-md-3">
-                    <figure><img src="{{url('public/images/icon8.png')}}" alt="Image"></figure>
-                    <dl>
-                        <dt>Working hours</dt>
-                        <dd>Mon-Fri 9.00am - 4.00p
-                        <dd>Sat 12.00 - 5.00pm</dd>
-                    </dl>
-                </div>
+
                 <!-- end col-3 -->
             </div>
             <!-- end row -->
@@ -201,7 +194,7 @@
                 </div>
                 <!-- end col-6 -->
                 <div class="col-md-6">
-                    <h6 class="pull-right">Created by Themezinho with <i class="ion-heart"></i> in Istanbul</h6>
+                    <h6 class="pull-right">Created by Mahmoud Nassar <i class="ion-heart"></i></h6>
                 </div>
                 <!-- end col-6 -->
             </div>
@@ -230,7 +223,8 @@
     <script src="{{url('public/js/masonry.js')}}"></script>
     <script src="{{url('public/js/wow.js')}}"></script>
     <script src="{{url('public/js/jquery.stellar.js')}}"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDoO82xfGgpJa1eO1y5o0nMTQK8YQ2sCa4&sensor=false"></script>
+    <script type="text/javascript"
+            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDoO82xfGgpJa1eO1y5o0nMTQK8YQ2sCa4&sensor=false"></script>
     <script src="{{url('public/js/google-maps.js')}}"></script>
     {{--<script src="{{url('public/js/jquery.fancybox.js%3Fv=2.1.5')}}" type="text/javascript"></script>--}}
     <script src="{{url('public/js/jquery.themepunch.tools.min.js')}}" type='text/javascript'></script>
