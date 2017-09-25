@@ -61,17 +61,6 @@
         });
 
 
-        // Fancybox
-        // $('.fancybox').fancybox({
-        //   helpers: {
-        // 	overlay: {
-        // 	  locked: false
-        // 	}
-        //   }
-        // });
-
-
-        // OWL Carousels
         $('.logos-carousel').owlCarousel({
             loop: true,
             margin: 0,
@@ -97,6 +86,19 @@
                 }
             }
         });
+
+
+        // Fancybox
+        // $('.fancybox').fancybox({
+        //   helpers: {
+        // 	overlay: {
+        // 	  locked: false
+        // 	}
+        //   }
+        // });
+
+
+        // OWL Carousels
 
 
         // Page transition
