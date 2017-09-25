@@ -213,6 +213,8 @@
 
     <!-- JS FILES -->
     <script src="{{url('public/js/jquery.min.js')}}"></script>
+    <script src="{{url('public/js/owl.carousel.js')}}"></script>
+
     <script src="{{url('public/js/bootstrap.min.js')}}"></script>
     <script type="text/javascript">
         (function ($) {
@@ -227,7 +229,6 @@
     <script src="{{url('public/js/isotope.min.js')}}"></script>
     <script src="{{url('public/js/masonry.js')}}"></script>
     <script src="{{url('public/js/wow.js')}}"></script>
-    <script src="{{url('public/js/owl.carousel.js')}}"></script>
     <script src="{{url('public/js/jquery.stellar.js')}}"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDoO82xfGgpJa1eO1y5o0nMTQK8YQ2sCa4&sensor=false"></script>
     <script src="{{url('public/js/google-maps.js')}}"></script>
