@@ -103,7 +103,7 @@
                     <li><a href="{{url('/')}}" class="transition">HOME</a></li>
                     <li><a href="{{url('/about')}}" class="transition">ABOUT US</a></li>
                     <li><a href="{{url('/services')}}" class="transition">OUR SERVICES</a></li>
-                    <li><a href="{{url('/work')}}">OUR WORKS</a></li>
+                    {{--<li><a href="{{url('/work')}}">OUR WORKS</a></li>--}}
                     <li><a href="{{url('/contact')}}" class="transition">CONTACT US</a></li>
                     <li><a href="#" class="hamburger-menu"><i class="ion-navicon"></i></a></li>
                 </ul>
@@ -127,7 +127,7 @@
                     <figure><img src="{{url('public/images/icon5.png')}}" alt="Image"></figure>
                     <dl>
                         <dt>LOCATION</dt>
-                        <dd>Ring Central Plot C: 796 A/3 Mango Avenue, Chicago</dd>
+                        <dd>7-t  , Pyramids Gardens - floor 3</dd>
                     </dl>
                 </div>
                 <!-- end col-3 -->
@@ -135,8 +135,7 @@
                     <figure><img src="{{url('public/images/icon6.png')}}" alt="Image"></figure>
                     <dl>
                         <dt>PHONE</dt>
-                        <dd>+1 (312)/ 564-0034</dd>
-                        <dd>+1 (312)/ 988-5738</dd>
+                        <dd>(+2)010-1114 05 41</dd>
                     </dl>
                 </div>
                 <!-- end col-3 -->
@@ -144,8 +143,7 @@
                     <figure><img src="{{url('public/images/icon7.png')}}" alt="Image"></figure>
                     <dl>
                         <dt>E-MAIL</dt>
-                        <dd>support [at] sreative.com</dd>
-                        <dd>sales@ [at] sreative.com</dd>
+                        <dd>info@ash-egy.com</dd>
                     </dl>
                 </div>
                 <!-- end col-3 -->
@@ -161,11 +159,8 @@
         <div class="container wow fadeInUp">
             <div class="row">
                 <div class="col-md-6"><img src="{{url('public/images/logo-light.png')}}" alt="Image" class="logo">
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                        consequuntur.</p>
-                    <p>Magni dolores eos qui ratione voluptatem seqi nesciunt. Neque poro quisquam est, qui dolorem
-                        ipsum
-                        quia.</p>
+                    <p>ASH is a full services advertising agency with young and ambitious employees who started as freelances and worked at another advertising agencies who started as freelance and worked at another advertising agencies.</p>
+
                 </div>
                 <!-- end col-4 -->
                 <!-- end col-4 -->

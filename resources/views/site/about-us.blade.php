@@ -4,8 +4,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2 class="title">ABOUT US</h2>
-                <h5 class="sub-title">{{$about->header}}</h5>
+                <h2 class="title">ABOUT ASH</h2>
+                {{--<h5 class="sub-title">{{$about->header}}</h5>--}}
             </div>
         </div>
     </div>

@@ -1,10 +1,10 @@
 // Google maps pin tooltip	
 var markers = [
     {
-        "lat": '48.019849',
-        "lng": '16.244016',
+        "lat": '29.9691774',
+        "lng": '31.0942109',
 
-        "description": 'Sreative<br/><a href="http://www.acrocapoeira.com/sreative" style="color:#ef3c3c; font-weight:800;">Get it now</a>'
+        "description": 'ASH'
     }
 ];
 
@@ -89,7 +89,7 @@ window.onload = function () {
         var marker = new google.maps.Marker({
             position: myLatlng,
             map: map,
-            icon: 'public/images/map-pin.png',
+            icon: 'public/images/mark.png',
             title: data.title
         });
         (function (marker, data) {

@@ -17,9 +17,8 @@
                     <address class="wow fadeInUp">
                         <h3>MAIN OFFICE</h3>
                         <h5>You are allways welcome to stop by and say hello !</h5>
-                        <p>Ring Central Plot C: 796 A/3 Mango Avenue<br> Chicago - USA</p>
-                        <p>p: +1 (312)/ 564-0034</p>
-                        <a href="contact.html#">support [at] sreative.com</a>
+                        <p>7-t  , Pyramids Gardens - floor 3</p>
+                        <p>(+2)010-1114 05 4</p>
                     </address>
                     <form class="wow fadeInUp">
                         <div class="form-group">

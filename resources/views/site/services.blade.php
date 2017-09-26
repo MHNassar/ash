@@ -15,7 +15,7 @@
             <div class="row">
                 @foreach($servises as $item)
                     <div class="col-md-3 no-padding">
-                        <div class="box yellow-bg">
+                        <div class="box yellow-bg" style="height: 480px;border: azure 1px solid;">
                             <div class="table">
                                 <div class="inner"><img src="{{url('public/uploads/'.$item->logo)}}" alt="Image">
                                     <h4>{{$item->title}}</h4>
