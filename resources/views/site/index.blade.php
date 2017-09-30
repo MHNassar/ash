@@ -69,7 +69,10 @@
                     <div class="col-md-3 no-padding">
                         <div class="box yellow-bg" style="height: 480px;border: azure 1px solid;">
                             <div class="table">
-                                <div class="inner"><img src="{{url('public/uploads/'.$item->logo)}}" alt="Image">
+                                <div class="inner"><img src="{{url('public/uploads/'.$item->logo)}}" alt="Image" style="
+    height: 100px;
+    width: 100px;
+">
                                     <h4>{{$item->title}}</h4>
                                     {!! $item->body !!}
 
@@ -91,38 +94,38 @@
     <!-- end services -->
     <!-- end fun-facts -->
     {{--<section class="latest-works">--}}
-        {{--<div class="container wow fadeInUp">--}}
-            {{--<div class="row">--}}
-                {{--<div class="col-xs-12">--}}
-                    {{--<h3>LATEST <span>WORKS</span></h3>--}}
-                    {{--<div class="works-filter"><a href="#" data-filter="*"--}}
-                                                 {{--class="current">ALL<span></span></a></div>--}}
-                    {{--<!-- end works-filter -->--}}
-                {{--</div>--}}
-                {{--<!-- end col-12 -->--}}
-            {{--</div>--}}
-            {{--<!-- end row -->--}}
-        {{--</div>--}}
-        {{--<!-- end container -->--}}
-        {{--<ul class="wow fadeInUp">--}}
-            {{--@foreach($work as $item)--}}
-                {{--<li class="video">--}}
-                    {{--<figure><img src="{{url('public/uploads/'.$item->image)}}" alt="Image">--}}
-                        {{--<figcaption>--}}
-                            {{--<div class="table">--}}
-                                {{--<div class="inner">--}}
-                                    {{--<h4><a href="#">{{$item->title}}</a></h4>--}}
-                                    {{--<small>{{$item->body}}</small>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</figcaption>--}}
-                    {{--</figure>--}}
-                {{--</li>--}}
-        {{--@endforeach--}}
-        {{--<!-- end work -->--}}
+    {{--<div class="container wow fadeInUp">--}}
+    {{--<div class="row">--}}
+    {{--<div class="col-xs-12">--}}
+    {{--<h3>LATEST <span>WORKS</span></h3>--}}
+    {{--<div class="works-filter"><a href="#" data-filter="*"--}}
+    {{--class="current">ALL<span></span></a></div>--}}
+    {{--<!-- end works-filter -->--}}
+    {{--</div>--}}
+    {{--<!-- end col-12 -->--}}
+    {{--</div>--}}
+    {{--<!-- end row -->--}}
+    {{--</div>--}}
+    {{--<!-- end container -->--}}
+    {{--<ul class="wow fadeInUp">--}}
+    {{--@foreach($work as $item)--}}
+    {{--<li class="video">--}}
+    {{--<figure><img src="{{url('public/uploads/'.$item->image)}}" alt="Image">--}}
+    {{--<figcaption>--}}
+    {{--<div class="table">--}}
+    {{--<div class="inner">--}}
+    {{--<h4><a href="#">{{$item->title}}</a></h4>--}}
+    {{--<small>{{$item->body}}</small>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</figcaption>--}}
+    {{--</figure>--}}
+    {{--</li>--}}
+    {{--@endforeach--}}
+    {{--<!-- end work -->--}}
 
-            {{--<!-- end work -->--}}
-        {{--</ul>--}}
+    {{--<!-- end work -->--}}
+    {{--</ul>--}}
     {{--</section>--}}
     <!-- end latest works -->
 

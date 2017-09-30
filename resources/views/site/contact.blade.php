@@ -17,7 +17,7 @@
                     <address class="wow fadeInUp">
                         <h3>MAIN OFFICE</h3>
                         <h5>You are allways welcome to stop by and say hello !</h5>
-                        <p>7-t  , Pyramids Gardens - floor 3</p>
+                        <p>7-t , Pyramids Gardens - floor 3</p>
                         <p>(+2)010-1114 05 4</p>
                     </address>
                     <form class="wow fadeInUp">
@@ -43,12 +43,15 @@
                         <!-- end form-group -->
                     </form>
                 </div>
+                <div class="col-xs-6 map wow fadeInUp" id="map">
+                </div>
+
             </div>
         </div>
     </section>
     <!-- end contact-info -->
-    <section class="map wow fadeInUp" id="map">
-    </section>
+    {{--<section class="map wow fadeInUp" id="map">--}}
+    {{--</section>--}}
     <!-- end map -->
     <!-- end quote -->
 @endsection

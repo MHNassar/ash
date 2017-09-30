@@ -56,7 +56,7 @@
 <div class="loading yellow-bg">
     <div class="table">
         <div class="inner">
-            {{--<img src="{{url('public/images/logo-light.png')}}" alt="Image">--}}
+            <img src="{{url('public/images/logo22.png')}}" alt="Image">
             <div class="clearfix"></div>
             <div class="spinner"></div>
         </div>
@@ -95,7 +95,7 @@
                         data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
                             class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="{{url('public/images/logo-light.png')}}"
+                <a class="navbar-brand" href="#"><img src="{{url('public/images/logo22.png')}}"
                                                       alt="Image"></a></div>
             <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left"
                  id="bs-example-navbar-collapse-1">
@@ -127,7 +127,7 @@
                     <figure><img src="{{url('public/images/icon5.png')}}" alt="Image"></figure>
                     <dl>
                         <dt>LOCATION</dt>
-                        <dd>7-t  , Pyramids Gardens - floor 3</dd>
+                        <dd>7-t , Pyramids Gardens - floor 3</dd>
                     </dl>
                 </div>
                 <!-- end col-3 -->
@@ -158,8 +158,13 @@
     <footer>
         <div class="container wow fadeInUp">
             <div class="row">
-                <div class="col-md-6"><img src="{{url('public/images/logo-light.png')}}" alt="Image" class="logo">
-                    <p>ASH is a full services advertising agency with young and ambitious employees who started as freelances and worked at another advertising agencies who started as freelance and worked at another advertising agencies.</p>
+                <div class="col-md-6"><img src="{{url('public/images/logo22.png')}}" alt="Image" class="logo" style="
+    height: 67px;
+    background-color: rgba(255, 255, 255, 0.1);
+">
+                    <p>ASH is a full services advertising agency with young and ambitious employees who started as
+                        freelances and worked at another advertising agencies who started as freelance and worked at
+                        another advertising agencies.</p>
 
                 </div>
                 <!-- end col-4 -->
@@ -190,7 +195,7 @@
                 </div>
                 <!-- end col-6 -->
                 <div class="col-md-6">
-                    <h6 class="pull-right">Created by Mahmoud Nassar <i class="ion-heart"></i></h6>
+                    <h6 class="pull-right">powered by ASH advertising agency <i class="ion-heart"></i></h6>
                 </div>
                 <!-- end col-6 -->
             </div>

@@ -17,7 +17,11 @@
                     <div class="col-md-3 no-padding">
                         <div class="box yellow-bg" style="height: 480px;border: azure 1px solid;">
                             <div class="table">
-                                <div class="inner"><img src="{{url('public/uploads/'.$item->logo)}}" alt="Image">
+                                <div class="inner">
+                                    <img src="{{url('public/uploads/'.$item->logo)}}" alt="Image" style="
+                                    height: 100px;
+                                    width: 100px;
+                                    ">
                                     <h4>{{$item->title}}</h4>
                                     {!! $item->body !!}
 

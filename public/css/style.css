@@ -671,7 +671,8 @@ header video {
     height: 85px;
     padding-top: 4px;
     border-radius: 0;
-    background: url(../images/rainbow-bar.jpg) top repeat-x;
+    background: url(../images/rainbow-bar111.jpg) top repeat-x;
+    background-color: rgba(255, 255, 255, 0.27);
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -687,8 +688,8 @@ header video {
 }
 
 .navbar-default .navbar-brand img {
-    height: 22px;
-    margin-top: 15px;
+    height: 60px;
+    margin-top: -9px;
 }
 
 .navbar-default .navbar-nav {
@@ -764,7 +765,7 @@ header video {
 }
 
 .fixed-nav {
-    background: url(../images/rainbow-bar.jpg) top repeat-x rgba(255, 255, 255, 0.92) !important;
+    background: url(../images/rainbow-bar111.jpg) top repeat-x rgba(255, 255, 255, 0.92) !important;
 }
 
 .fixed-nav a {
@@ -792,7 +793,7 @@ header video {
 
 .about-us .left-side {
     height: 500px;
-    background: url(../images/image1.jpg) no-repeat;
+    background: url(../images/abouuut.jpg) no-repeat;
 }
 
 .about-us .right-side {
