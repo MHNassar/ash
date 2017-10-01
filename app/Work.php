@@ -8,25 +8,27 @@ use Laraveldaily\Quickadmin\Observers\UserActionsObserver;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Work extends Model {
+class Work extends Model
+{
 
     use SoftDeletes;
 
     /**
-    * The attributes that should be mutated to dates.
-    *
-    * @var array
-    */
+     * The attributes that should be mutated to dates.
+     *
+     * @var array
+     */
     protected $dates = ['deleted_at'];
 
-    protected $table    = 'work';
-    
+    protected $table = 'work';
+
     protected $fillable = [
-          'title',
-          'body',
-          'image'
+        'title',
+        'body',
+        'image',
+        'category'
     ];
-    
+
 
     public static function boot()
     {
@@ -34,8 +36,6 @@ class Work extends Model {
 
         Work::observe(new UserActionsObserver);
     }
-    
-    
-    
-    
+
+
 }

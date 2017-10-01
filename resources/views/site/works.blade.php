@@ -14,8 +14,16 @@
         <div class="container wow fadeInUp">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="works-filter"><a href="#" data-filter="*"
-                                                 class="current">ALL<span></span></a></div>
+                    <div class="works-filter">
+                        <a href="#" data-filter="*"
+                           class="current">ALL<span></span></a>
+                        @foreach($workCategories as $item)
+                            <a href="#" data-filter=".{{$item->name}}"
+                            >{{$item->name}}<span></span></a>
+                        @endforeach
+
+                    </div>
+
                     <!-- end works-filter -->
                 </div>
                 <!-- end col-12 -->
@@ -25,7 +33,7 @@
         <!-- end container -->
         <ul class="wow fadeInUp">
             @foreach($work as $item)
-                <li class="video">
+                <li class="{{$item->category}}">
                     <figure><img src="{{url('public/uploads/'.$item->image)}}" alt="Image">
                         <figcaption>
                             <div class="table">

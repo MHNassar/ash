@@ -7,6 +7,7 @@ use App\Clients;
 use App\Services;
 use App\Team;
 use App\Work;
+use App\WorkCategories;
 use Illuminate\Http\Request;
 
 class SiteController extends Controller
@@ -44,8 +45,10 @@ class SiteController extends Controller
 
     public function getWorks()
     {
+        $workCategories = WorkCategories::all();
         $work = Work::all();
-        return view('site.works')->with('work', $work);
+        return view('site.works')->with('work', $work)
+            ->with('workCategories', $workCategories);
     }
 
     public function getContact()
