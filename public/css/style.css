@@ -772,10 +772,10 @@ header video {
     color: #7bd0e5 !important;
 }
 
-.fixed-nav img {
-    -webkit-filter: brightness(1) invert(1);
-    filter: brightness(1) invert(1);
-}
+/*.fixed-nav img {*/
+    /*-webkit-filter: brightness(1) invert(1);*/
+    /*filter: brightness(1) invert(1);*/
+/*}*/
 
 .fixed-nav .dropdown-menu {
     background: #7bd0e5;
