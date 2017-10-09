@@ -20,10 +20,13 @@ class SiteController extends Controller
         $servises = Services::limit('4')->get();
         $work = Work::all();
         $clintes = Clients::all();
+        $workCategories = WorkCategories::all();
+
         return view('site.index')->with('about', $about)
             ->with('work', $work)
             ->with('clintes', $clintes)
-            ->with('servises', $servises);
+            ->with('servises', $servises)
+            ->with('workCategories', $workCategories);
     }
 
     public function getAbout()

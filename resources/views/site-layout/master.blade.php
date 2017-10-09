@@ -103,7 +103,7 @@
                     <li><a href="{{url('/')}}" class="transition">HOME</a></li>
                     <li><a href="{{url('/about')}}" class="transition">ABOUT US</a></li>
                     <li><a href="{{url('/services')}}" class="transition">OUR SERVICES</a></li>
-                    {{--<li><a href="{{url('/work')}}">OUR WORKS</a></li>--}}
+                    <li><a href="{{url('/work')}}">OUR WORKS</a></li>
                     <li><a href="{{url('/contact')}}" class="transition">CONTACT US</a></li>
                     <li><a href="#" class="hamburger-menu"><i class="ion-navicon"></i></a></li>
                 </ul>
