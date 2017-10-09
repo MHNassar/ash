@@ -24,6 +24,6 @@ class CreateWorkRequest extends FormRequest
      */
     public function rules()
     {
-
+        return [];
     }
 }
